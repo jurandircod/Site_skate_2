@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+    display: flex;
+    background-color: #f2f2f2;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(../img/SKT.jpg);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+    
+
+
+}
+
+.row {
+    display: flex;
+    position: relative;
+    width: 400px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.borda-login {
+    display: none;
+    background-color: white;
+    margin-top: 80px;
+    width: 450px;
+    height: 580px;
+    padding-bottom: 30px;
+    border: 1px solid rgb(172, 158, 158);
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    
+}
+
+#bnt {
+    width: 375px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.row img {
+    display: block;
+    width: 120px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.img-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row .cadastro {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#bnt-entrar{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border:1px solid rgb(172, 158, 158);
+}
+
+#bnt-cadastrar{
+    border: 1px solid rgb(172, 158, 158);
+    position: absolute;
+    width: 375px;
+    bottom: 40px;
+    transform: translate(-0%);
+    transform: translateY(0%);
+}
+
+

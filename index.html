@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+
+<html lang="pt-br" data-bs-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skateshop</title>
+  <link rel="stylesheet" href="cssbost/bootstrap.min.css">
+  <link rel="stylesheet" href="css/stile.css">
+  <link rel="stylesheet" href="fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.min.css">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" class="fixed-top" >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Broklin</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Skates prontos
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Peças
+            </a>
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Shapes</a></li>
+              <li><a class="dropdown-item" href="#">Rodas</a></li>
+              <li><a class="dropdown-item" href="#">Rolamentos e parafusos</a></li>
+              <li><a class="dropdown-item" href="#">Lixas</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <img id="moon" src="../Site skate/img/dark theme/night.png" alt="">
+          </li>
+          <li class="nav-item">
+            <img id="sun" src="../Site skate/img/dark theme/sun.png" alt=""></button>
+          </li>
+        </ul>
+
+        <ul class="button-login text-center" style="margin-top: 20px; margin-right: 10px;">
+          <div class="nav-item dropdown d-flex text-center">
+            <button class="" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               <i class="fa-solid fa-user"></i>login
+              <div></button>
+
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="../Site skate/Telalogin/login.html">Conecte-se</a></li>
+                  <li><a class="dropdown-item" href="login.html">Cadastro</a></li>
+                </ul>
+              </div>
+        </ul>
+
+
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Procurar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- carrosel -->
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="https://d3ugyf2ht6aenh.cloudfront.net/stores/002/907/587/themes/amazonas/1-slide-1684519620708-8956078147-3631cdeec93ccb2bdb2afc9390df567b1684519624-1920-1920.webp?580062882"
+          class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://d3ugyf2ht6aenh.cloudfront.net/stores/002/907/587/themes/amazonas/1-slide-1685127719459-53481262-5b468c34f66eec721be45953a38e77bc1685127722-1920-1920.webp?580062882"
+          class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://d3ugyf2ht6aenh.cloudfront.net/stores/002/907/587/themes/amazonas/1-slide-1684869508503-8028506649-bb64843e00c5fbe1bcf0340d1a83fdd21684869510-1920-1920.webp?580062882"
+          class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!--botões pos carrosel-->
+  <div class="compras bg-body-tertiary" style="margin-bottom: 20px;">
+    <div>
+      <button type="button" class="btn btn-light"><img src="../Site skate/img/icones/camisaVenda.png" alt="">
+        <h6 class="text-center">Camisas</h6>
+      </button>
+    </div>
+    <div>
+      <button type="button" class="btn btn-light"><img src="../Site skate/img/icones/skateboardvenda.png" alt="">
+        <h6 class="text-center">Skates completos</h6>
+      </button>
+    </div>
+    <div>
+      <button type="button" class="btn btn-light"><img src="../Site skate/img/icones/shortsvenda.png" alt="">
+        <h6 class="text-center">Calças</h6>
+      </button>
+    </div>
+    <div>
+      <button type="button" class="btn btn-light"><img src="../Site skate/img/icones/peças.png" alt="">
+        <h6 class="text-center">Peças</h6>
+      </button>
+    </div>
+    <div>
+      <button type="button" class="btn btn-light"><img src="../Site skate/img/icones/tenisvenda.png" alt="">
+        <h6 class="text-center">Tenis</h6>
+      </button>
+    </div>
+    <div>
+      <button type="button" class="btn btn-light"><img src="../Site skate/img/icones/acessoriosvendas.png" alt="">
+        <h6 class="text-center">Acessorios</h6>
+      </button>
+    </div>
+  </div>
+
+
+  <h3 class="tittle text-center">Destaques</h3>
+
+  <!-- cards -->
+  <section class="container-cards text-center">
+    <div id="cards" class="card" class="img-container">
+      <img href="#"
+        src="https://d3ugyf2ht6aenh.cloudfront.net/stores/002/907/587/products/1-thrasher-flame-logo-branca1-7beaf6f9b0072cc80416847754180253-480-0.webp"
+        class="card-img-top" alt="...">
+      <div class="margin"></div>
+      <div class="card-body border-secondary ">
+        <h5 class="card-text">Camisa trasher</h5>
+        <div class="price d-flex">
+          <p>299$</p>
+          <h4>149,90$</h4>
+        </div>
+      </div>
+      <div class="card-body">
+        <a href="#" id="bnt-card" class="btn btn-secondary">comprar</a>
+        <a href="#" id="bnt-card" class="btn"> Carrinho <i class=""></i></a>
+      </div>
+    </div>
+
+    <div id="cards" class="card">
+      <img
+        src="https://d3ugyf2ht6aenh.cloudfront.net/stores/002/907/587/products/5-all-in-preta11-d296d7b4d0aac7a8a316848607262595-480-0.webp"
+        class="card-img-top" alt="...">
+      <div class="margin"></div>
+      <div class="card-body border-secondary ">
+        <h5 class="card-text">Camisa Nike</h5>
+        <div class="price d-flex">
+          <p style="text-decoration: line-through;">299$</p>
+          <h4>149,90$</h4>
+        </div>
+      </div>
+      <div class="card-body">
+        <a href="#" id="bnt-card" class="btn btn-secondary">comprar</a>
+        <a href="#" id="bnt-card" class="btn"> Carrinho <i class=""></i></a>
+      </div>
+    </div>
+    <div id="cards" class="card">
+      <img
+        src="https://d3ugyf2ht6aenh.cloudfront.net/stores/002/907/587/products/22-thrasher-colored-dye1-6062f3e13db1cf4d2916847786848047-480-0.webp"
+        class="card-img-top" alt="...">
+      <div class="margin"></div>
+      <div class="card-body border-secondary ">
+        <h5 class="card-text">Camisa Camisa trasher</h5>
+        <div class="price d-flex">
+          <p style="text-decoration: line-through;">299$</p>
+          <h4>149,90$</h4>
+        </div>
+      </div>
+      <div class="card-body">
+        <a href="#" id="bnt-card" class="btn btn-secondary">comprar</a>
+        <a href="#" id="bnt-card" class="btn"> Carrinho <i class=""></i></a>
+      </div>
+    </div>
+    <div id="cards" class="card">
+      <img
+        src="https://d3ugyf2ht6aenh.cloudfront.net/stores/002/907/587/products/03-creature-super-buzzed1-af81ff4216f2363cca16847817751364-480-0.webp"
+        class="card-img-top" alt="...">
+      <div class="margin"></div>
+      <div class="card-body border-secondary ">
+        <h5 class="card-text">Camisa trasher</h5>
+        <div class="price d-flex">
+          <p style="text-decoration: line-through;">299$</p>
+          <h4>149,90$</h4>
+        </div>
+      </div>
+      <div class="card-body">
+        <a href="#" id="bnt-card" class="btn btn-secondary">comprar</a>
+        <a href="#" id="bnt-card" class="btn"> Carrinho <i class=""></i></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-cards text-center">
+    <div id="cards" class="card">
+      <img
+        src="https://d3ugyf2ht6aenh.cloudfront.net/stores/002/907/587/products/1-thrasher-flame-logo-branca1-7beaf6f9b0072cc80416847754180253-480-0.webp"
+        class="card-img-top" alt="...">
+      <div class="margin"></div>
+      <div class="card-body border-secondary ">
+        <h5 class="card-text">Camisa trasher</h5>
+        <div class="price d-flex">
+          <p style="text-decoration: line-through;">299$</p>
+          <h4>149,90$</h4>
+        </div>
+      </div>
+      <div class="card-body">
+        <a href="#" id="bnt-card" class="btn btn-secondary">comprar</a>
+        <a href="#" id="bnt-card" class="btn"> Carrinho <i class=""></i></a>
+      </div>
+    </div>
+    <div id="cards" class="card">
+      <img
+        src="https://d3ugyf2ht6aenh.cloudfront.net/stores/002/907/587/products/alien1-2b4439ef77202e8bac16828860907081-480-0.webp"
+        class="card-img-top" alt="...">
+      <div class="margin"></div>
+      <div class="card-body border-secondary ">
+        <h5 class="card-text">Camisa trasher</h5>
+        <div class="price d-flex">
+          <p style="text-decoration: line-through;">299$</p>
+          <h4>149,90$</h4>
+        </div>
+      </div>
+      <div class="card-body">
+        <a href="#" id="bnt-card" class="btn btn-secondary">comprar</a>
+        <a href="#" id="bnt-card" class="btn"> Carrinho <i class=""></i></a>
+      </div>
+    </div>
+    <div id="cards" class="card">
+      <img
+        src="https://d3ugyf2ht6aenh.cloudfront.net/stores/002/907/587/products/alien1-2b4439ef77202e8bac16828860907081-480-0.webp"
+        class="card-img-top" alt="...">
+      <div class="margin"></div>
+      <div class="card-body border-secondary ">
+        <h5 class="card-text">Camisa trasher</h5>
+        <div class="price d-flex">
+          <p style="text-decoration: line-through;">299$</p>
+          <h4>149,90$</h4>
+        </div>
+      </div>
+      <div class="card-body">
+        <a href="#" id="bnt-card" class="btn btn-secondary">comprar</a>
+        <a href="#" id="bnt-card" class="btn"> Carrinho <i class=""></i></a>
+      </div>
+    </div>
+    <div id="cards" class="card">
+      <img
+        src="https://d3ugyf2ht6aenh.cloudfront.net/stores/002/907/587/products/1-thrasher-flame-logo-branca1-7beaf6f9b0072cc80416847754180253-480-0.webp"
+        class="card-img-top" alt="...">
+      <div class="margin"></div>
+      <div class="card-body border-secondary ">
+        <h5 class="card-text">Camisa trasher</h5>
+        <div class="price d-flex">
+          <p style="text-decoration: line-through;">299$</p>
+          <h4>149,90$</h4>
+        </div>
+      </div>
+      <div class="card-body">
+        <a href="#" id="bnt-card" class="btn btn-secondary">comprar</a>
+        <a href="#" id="bnt-card" class="btn"> Carrinho <i class=""></i></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-cards text-center">
+    <div id="cards" class="card">
+      <img
+        src="https://d3ugyf2ht6aenh.cloudfront.net/stores/002/907/587/products/1-thrasher-flame-logo-branca1-7beaf6f9b0072cc80416847754180253-480-0.webp"
+        class="card-img-top" alt="...">
+      <div class="margin"></div>
+      <div class="card-body border-secondary ">
+        <h5 class="card-text">Camisa trasher</h5>
+        <div class="price d-flex">
+          <p style="text-decoration: line-through;">299$</p>
+          <h4>149,90$</h4>
+        </div>
+      </div>
+      <div class="card-body">
+        <a href="#" id="bnt-card" class="btn btn-secondary">comprar</a>
+        <a href="#" id="bnt-card" class="btn"> Carrinho <i class=""></i></a>
+      </div>
+    </div>
+
+    <div id="cards" class="card">
+      <img
+        src="https://d3ugyf2ht6aenh.cloudfront.net/stores/002/907/587/products/5-all-in-preta11-d296d7b4d0aac7a8a316848607262595-480-0.webp"
+        class="card-img-top" alt="...">
+      <div class="margin"></div>
+      <div class="card-body border-secondary ">
+        <h5 class="card-text">Camisa Nike</h5>
+        <div class="price d-flex">
+          <p style="text-decoration: line-through;">299$</p>
+          <h4>149,90$</h4>
+        </div>
+      </div>
+      <div class="card-body">
+        <a href="#" id="bnt-card" class="btn btn-secondary">comprar</a>
+        <a href="#" id="bnt-card" class="btn"> Carrinho <i class=""></i></a>
+      </div>
+    </div>
+    <div id="cards" class="card">
+      <img
+        src="https://d3ugyf2ht6aenh.cloudfront.net/stores/002/907/587/products/22-thrasher-colored-dye1-6062f3e13db1cf4d2916847786848047-480-0.webp"
+        class="card-img-top" alt="...">
+      <div class="margin"></div>
+      <div class="card-body border-secondary ">
+        <h5 class="card-text">Camisa Camisa trasher</h5>
+        <div class="price d-flex">
+          <p style="text-decoration: line-through;">299$</p>
+          <h4>149,90$</h4>
+        </div>
+      </div>
+      <div class="card-body">
+        <a href="#" id="bnt-card" class="btn btn-secondary">comprar</a>
+        <a href="#" id="bnt-card" class="btn"> Carrinho <i class=""></i></a>
+      </div>
+    </div>
+    <div id="cards" class="card">
+      <img
+        src="https://d3ugyf2ht6aenh.cloudfront.net/stores/002/907/587/products/03-creature-super-buzzed1-af81ff4216f2363cca16847817751364-480-0.webp"
+        class="card-img-top" alt="...">
+      <div class="margin"></div>
+      <div class="card-body border-secondary ">
+        <h5 class="card-text">Camisa trasher</h5>
+        <div class="price d-flex">
+          <p style="text-decoration: line-through;">299$</p>
+          <h4>149,90$</h4>
+        </div>
+      </div>
+      <div class="card-body">
+        <a href="#" id="bnt-card" class="btn btn-secondary">comprar</a>
+        <a href="#" id="bnt-card" class="btn"> Carrinho <i class=""></i></a>
+      </div>
+    </div>
+  </section>
+
+  <h1 class="text-center text-body-secondary" style="margin-top: 20px;">informações adicionais</h1>
+
+  <footer class="footer">
+    <section class="conteudo text-center"><h3 style="background-color: white; border-radius: 10px;">Receba atualizações</h3>
+    <br>
+    <br>
+    <label for="Digite">email</label>
+    <input type="email form-group" style="border-radius: 10px;" id="">
+    </section>
+
+    <div class="siderbar">
+    </div>
+
+  </footer>
+
+  <script src="jsbots/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

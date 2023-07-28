@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Broklyn</title>
+  <link rel="stylesheet" href="../Site skate/cssbost/bootstrap.min.css">
+  <link rel="stylesheet" href="../Site skate/css/Stylelogin.css">
+  <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+  <script src="../Site skate/js/conf.js"></script>
+</head>
+
+<body>
+
+  <nav class="fixed-top navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../Site skate/index.html">Broklyn</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Skates prontos
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Peças
+            </a>
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Shapes</a></li>
+              <li><a class="dropdown-item" href="#">Rodas</a></li>
+              <li><a class="dropdown-item" href="#">Rolamentos e parafusos</a></li>
+              <li><a class="dropdown-item" href="#">Lixas</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Procurar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div id="borda-login" class="borda-login d-flex justify-content-center align-items-center position-relative">
+    <button type="submit" id="bnt-entrar" class="btn w-50 d-none">Entrar</button>
+    <button type="submit" id="bnt-cadastrar" class="btn text-body-secondary">Não tem cadastro ?</button>
+    <div class="row">
+
+
+
+      <div class="img-login w-100">
+        <img src="../Site skate/img/icones/trick.png" alt="">
+      </div>
+      <form id="form-login">
+        <div class="form-group">
+          <label for="username">Email:</label>
+          <input type="text" class="form-control" id="username" name="username" placeholder="Digite seu Email">
+        </div>
+
+        <div class="form-group">
+          <label for="password">Senha:</label>
+          <input type="password" class="form-control" id="password" name="password" placeholder="Digite sua senha">
+        </div>
+        <button type="submit" id="bnt" class="btn btn-secondary">Entre com sua conta</button>
+        <a class="text-body-secondary" href="www.google.com">Esqueceu a senha ?</a>
+      </form>
+
+      <form id="form-cadastrar" style="display: none;">
+
+        <div class="form-group">
+          <label for="username">Nome*</label>
+          <input type="text" class="form-control" id="" name="username" placeholder="digite seu nome">
+        </div>
+
+
+        <div class="form-group">
+          <label for="email" type="email">Email:</label>
+          <input type="text" class="form-control" aria-label="username" aria-describedby="addon-wrapping"
+            placeholder="Digite seu email">
+        </div>
+
+        <div class="form-group">
+          <label for="password">Escolha uma senha Senha:</label>
+          <input type="password" class="form-control" id="password" name="password" placeholder="Digite sua senha">
+        </div>
+
+        <div class="form-group">
+          <label for="password">Digite sua senha novamente:</label>
+          <input type="password" class="form-control" id="password" name="password" placeholder="Digite sua senha">
+        </div>
+
+        <button type="submit" id="bnt" class="btn btn-secondary">Confirmar cadastro</button>
+        <button type="submit" id="bnt" style="background: none; border: none; outline: none; box-shadow: none;"
+          class="bnt text-body-secondary"> já possui uma conta?</button>
+      </form>
+
+    </div>
+  </div>
+
+  <script src="../jsbots/bootstrap.min.js"></script>
+</body>
+
+</html>
